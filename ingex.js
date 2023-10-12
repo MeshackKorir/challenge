@@ -8,4 +8,4 @@ const totalPrice = items
   .map(item => item.price) // Extract prices into a new array
   .reduce((accumulator, currentValue) => accumulator + currentValue, 0); // Sum the prices
 
-console.log(totalPrice); // Output: 46.97
+console.log(totalPrice); // Output: 16.98
